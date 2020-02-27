@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Cambay&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Questrial&display=swap');
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Cambay', sans-serif;
+	background-image: url("../Afbeeldingen/background.jpg");
+}
+
+  /*Logo*/
+.logo {
+  margin-left: 7%;
+  width: 5%;
+  float: left;
+}
+/*Einde logo*/
+/*begin Menubalk*/
+
+nav {
+  margin: 0 0 0 0%;
+  padding: 4px;
+  background-color: #FF5C5C;
+  font-size: 25px;
+  border-bottom: 2px solid black;
+
+}
+
+nav ul li {
+  display: inline;
+  padding: 0px;
+  margin: 7% -36% 7% 40%;
+}
+
+nav ul li a, a:link, a:visited, a:active {
+  color: #fff;
+  text-decoration: none;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+nav ul li a:hover {
+  color: #E2E2E2;
+  border-bottom: 1px solid #000;
+}
+/*Einde Menubalk*/
+
+.Inhoud1 {
+  padding: 0%;
+  margin: 7% 65% 0% 15%;
+  background-color: white;
+  text-align: center;
+  border: 2px solid black;
+}
+.Inhoud2 {
+  padding: 0%;
+  margin: -25.1% 40% 0% 40%;
+  background-color: white;
+  text-align: center;
+  border: 2px solid black;
+}
+.Inhoud3 {
+  padding: 0%;
+  margin: -25.2% 15% 0% 65%;
+  background-color: white;
+  text-align: center;
+  border: 2px solid black;
+}
+/* einde inhoud begin bestel knop*/
+
+.Bestellen {
+  padding: 1% 0 1% 0%;
+  background-color: red;
+  margin: 0% 32% 0% 32%;
+  color: white;
+  text-align: center;
+  border: 2px solid black;
+}
+.Bestellen:hover {
+  text-decoration: none;
+  color: red;
+}
+.Bestellen a {
+  text-decoration: none;
+}
+/*footer*/
+
+footer {
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  background-color: #FF5C5C;
+  text-align: center;
+  margin-top: 12%;
+  border-top: 1px solid black;
+}

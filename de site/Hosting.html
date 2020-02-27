@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+	<link rel="stylesheet" type="text/css" href="CSS/Hostingpagina.css">
+	<title>Homepagina</title>
+	<script src="Preload Images.js"></script>
+</head>
+<body>
+	<!-- Begin Menubalk -->
+<img class="logo" src="Afbeeldingen/logo.png" alt="Img tag not working.">
+	<nav>
+		<ul>
+			<li><a href="Home.html">Home</a></li>
+			<li><a href="Cloud.html">Cloud</a></li>
+			<li><a href="Contactpagina.html">Contactpagina</a></li>
+			<li><a href="Klantenpagina.html">Klantenpagina</a></li>
+		</ul>
+	</nav>
+	<!-- Einde Menubalk en begin inhoud -->
+<div class="Inhoud1">
+	<h1>Pakket Brons</h1>
+	<p>10 GB HDD <br>512MB RAM<br>1 Core<br>100GB dataverkeer per maand
+	<br><br>
+	<p>hoeveel maanden?</p>
+	<input type="number" min="1" max="5" id="aantal-brons">
+	<br>
+	<p id="brons-r">Prijs:</p>
+	<p>(€5,95- euro per maand)</p>
+	<div class="Bestellen"><a onClick="hostingBrons();" href="#">Bestellen</a>
+	</div></p></div>
+
+<div class="Inhoud2">
+	<h1>Pakket Silver</h1>
+	<p>20 GB HDD <br>1048MB RAM<br>2 Core<br>200GB dataverkeer per maand
+		<br><br><br>
+		<p>hoeveel maanden?</p>
+		<input type="number" min="1" max="5" id="aantal-silver">
+		<br>
+		<p id="silver-r">Prijs:</p>
+		<p>(€7,95- euro per maand)</p>
+		<div class="Bestellen"><a onClick="hostingSilver();" href="#">Bestellen</a>
+	</div></p></div>
+
+<div class="Inhoud3">
+	<h1>Pakket Goud</h1>
+	<p>50 GB HDD <br>2048MB RAM<br>4 Core<br>Onbeperkt dataverkeer per maand
+		<br><br>
+	<p>hoeveel maanden?</p>
+	<input type="number" min="1" max="5" id="aantal-goud">
+	<br>
+	<p id="goud-r">Prijs:</p>
+	<p>€10,95- euro per maand)</p>
+	<div class="Bestellen"><a onClick="hostingGoud();" href="#">Bestellen</a>
+	</div></p></div>
+	<!-- Einde inhoud en Begin Footer -->
+<footer>© Pascal de Haan, Hidde Hoek, Jim Volgelzang en Jordy Hofsink | Pict4v1a</footer>
+<script src="reken.js" rel="text/javascript"></script>
+</body>
+</html>

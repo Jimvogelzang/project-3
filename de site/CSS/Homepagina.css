@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Cambay&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Questrial&display=swap');
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Cambay', sans-serif;
+	background-image: url("../Afbeeldingen/background.jpg");
+}
+
+  /*Logo*/
+.logo {
+  margin-left: 7%;
+  width: 5%;
+  float: left;
+}
+/*Einde logo*/
+/*begin Menubalk*/
+
+nav {
+  margin: 0 0 0 0%;
+  padding: 4px;
+  background-color: #FF5C5C;
+  font-size: 25px;
+  border-bottom: 2px solid black;
+
+}
+
+nav ul li {
+  display: inline;
+  padding: 0px;
+  margin: 7% -36% 7% 40%;
+}
+
+nav ul li a, a:link, a:visited, a:active {
+  color: #fff;
+  text-decoration: none;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+nav ul li a:hover {
+  color: #E2E2E2;
+  border-bottom: 1px solid #000;
+}
+/*Einde Menubalk*/
+/*Begin inhoud homepage*/
+
+
+
+p {
+  /*border: 2px solid black;*/
+}
+
+.Inhoud {
+  margin-left: 5%;
+  margin-top: 5%;
+  float: left;
+  clear: both;
+  font-family: 'Questrial';
+  font-size: 24px;
+}
+/*einde inhoud Homepagina*/
+/*begin Plaatjes Homepagina*/
+.imgs {
+  float: right;
+  width: 30%;
+  margin-top: 4%;
+  margin-right: 5%;
+  border: 2px solid black;
+  display: block;
+}
+/*Einde plaatjes homepagina*/
+/*footer*/
+
+footer {
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  background-color: #FF5C5C;
+  text-align: center;
+  margin-top: 43.65%;
+  border-top: 1px solid black;
+}

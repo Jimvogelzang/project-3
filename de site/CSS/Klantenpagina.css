@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Cambay&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Questrial&display=swap');
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Cambay', sans-serif;
+	background-image: url("../Afbeeldingen/background.jpg");
+}
+
+  /*Logo*/
+.logo {
+  margin-left: 7%;
+  width: 5%;
+  float: left;
+}
+/*Einde logo*/
+/*begin Menubalk*/
+
+nav {
+  margin: 0 0 0 0%;
+  padding: 4px;
+  background-color: #FF5C5C;
+  font-size: 25px;
+  border-bottom: 2px solid black;
+}
+
+nav ul li {
+  display: inline;
+  padding: 0px;
+  margin: 7% -36% 7% 40%;
+}
+
+nav ul li a, a:link, a:visited, a:active {
+  color: #fff;
+  text-decoration: none;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+nav ul li a:hover {
+  color: #E2E2E2;
+  border-bottom: 1px solid #000;
+}
+/*Einde Menubalk begin Inhoud*/
+
+.klanten {
+  padding: 0.5% 1% 0.5% 1%;
+  margin: 5% 20% 0 24%;
+  border: 2px solid black;
+  float: center;
+  background-color: white;
+  font-style:italic;
+}
+.klantenimg {
+  padding: 0;
+  margin: 6% 0% -14% 17%;*/
+  float: center;
+
+}
+h3 {
+  margin border-bottom: -5%;
+}
+.naam {
+  padding: 0;
+  margin: 0;
+  float: right;
+  margin-right: 15%;
+}
+/*einde inhoud begin footer*/
+
+footer {
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  background-color: #FF5C5C;
+  text-align: center;
+  margin-top: 7%;
+  border-top: 1px solid black;
+}
